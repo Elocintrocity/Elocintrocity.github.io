@@ -1,2 +1,2 @@
-# nicole-pontaza.github.io
+# Elocintrocity.github.io
 My personal website
