@@ -1,15 +1,17 @@
-body{
+h1{
 	background-image: url(bluekey.jpg);
+	font-size: 100 px;
+	color: white;
+	font-family: "Palatin", sans-serif;
+	padding: 50px 50px;
+	border-style: solid;
+}
+body{
+	background-color: black;
 	color: white;
 	font-size: 20px;
 	font-family: "Palatin", serif;
-	margin-left: 5em;
-}
-h1{
-	background-image: url(DOGE.jpg);
-	font-size: 100 px;
-	color: blue;
-	font-family: "Palatin", sans-serif;
+	margin: 2.5em;
 }
 a:link, a:visited{
 	background-color: #f44336;
@@ -18,7 +20,4 @@ a:link, a:visited{
 	text-align: center;
 	text-decoration: none;
 	display: inline-block;
-}
-#Skills{
-	margin-left: 5em;
 }
