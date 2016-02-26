@@ -24,7 +24,7 @@ h2{
 	vertical-align: middle;
 }
 body{
-	background-image: url(bluekey.jpg);
+	background-image: url(images/bluekey.jpg);
 	background-size: 100%;
 	background-repeat: no-repeat;
 	background-attachment: fixed;
@@ -76,7 +76,7 @@ a:link, a:visited{
    box-shadow:         inset 0 0 100px rgba(255, 255, 255, 0.35);
 }
 #page-1-github-button{
-	border-color: white;
+
 }
 .skills{
 	/*padding: 20px;*/
