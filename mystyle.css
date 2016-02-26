@@ -13,8 +13,12 @@ h1{
 	vertical-align: middle;
 	
 }
-.jumbotron p{
+#jumbotron p{
 	color: white;
+	font-size: 20px;
+	text-align: center;
+	vertical-align: middle;
+	height: 0vh;
 }
 h2{
 	color: white;
@@ -32,10 +36,11 @@ body{
 	font-family: "Palatin", serif;
 	margin: 0px;
 }
-a:link, a:visited{
-	
-}
 
+#container h3{
+	font-size: 30pt;
+	padding-top: 20px;
+}
 #container {
 	background-color: #fff;
 	width: 100%;
@@ -44,6 +49,7 @@ a:link, a:visited{
 	font-family: 'Roboto', sans-serif;
 	padding-bottom: 20px;
 }
+
 #social{
 	background-color: #39cad6;
 	width: 100%;
@@ -51,11 +57,14 @@ a:link, a:visited{
 	text-align: center;
 	font-family: 'Roboto', sans-serif;
 	padding-bottom: 20px;
-}
 
-#container h3{
-	font-size: 30pt;
-	padding-top: 20px;
+}
+img{
+	padding: 10px;
+	max-height: 50px;
+	max-width: 50px;
+	min-height: 50px;
+	min-width: 50px;
 }
 #social h3{
 	font-size: 30pt;
@@ -70,13 +79,13 @@ a:link, a:visited{
 	text-decoration: none;
 	display: inline-block;
 }
+/*a:link, a:visited{
+	
+}*/
 #page-1-button:hover{
    -moz-box-shadow:    inset 0 0 100px rgba(255, 255, 255, 0.35);
    -webkit-box-shadow: inset 0 0 100px rgba(255, 255, 255, 0.35);
    box-shadow:         inset 0 0 100px rgba(255, 255, 255, 0.35);
-}
-#page-1-github-button{
-
 }
 .skills{
 	/*padding: 20px;*/
