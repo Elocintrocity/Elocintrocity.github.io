@@ -59,11 +59,18 @@ body{
 .info{
 	text-align: left;
 	background-color: #faf;
+	height: 70%;
+}
+.info p{
+	font-size: 0.75em;
 }
 .skills{
 	margin-left: auto;
 	margin-right: auto;
 	text-align: left;
+}
+#Currently{
+	padding-top: 10px;
 }
 
 /*-----------------------SOCIAL-----------------------*/
