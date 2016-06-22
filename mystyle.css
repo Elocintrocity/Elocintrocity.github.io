@@ -1,4 +1,3 @@
-
 h1{
 	font-size: 100px;
 	font-family: "Palatin", sans-serif;
@@ -11,7 +10,6 @@ h1{
 	text-align: center;
 	line-height: 100vh;
 	vertical-align: middle;
-	
 }
 #jumbotron p{
 	color: white;
@@ -27,6 +25,9 @@ h2{
 	text-align: center;
 	vertical-align: middle;
 }
+h3{
+	font-size: 30px;
+}
 body{
 	background-image: url(images/bluekey.jpg);
 	background-size: 100%;
@@ -36,50 +37,94 @@ body{
 	font-family: "Palatin", serif;
 	margin: 0px;
 }
-/*-----------------------MEAT-----------------------*/
-.education-blocks{
-	-webkit-columns: 3 200px;
-	-moz-columns: 3 200px;
-	columns: 3 200px;
-	background-color: #fff;
-	font-family: 'Roboto', sans-serif;
-	width: 100%;
-	height: 4in;
+/*-----------------------INFO---------------------------*/
+.aboutme{
+	background-color: rgb(67,202,213);
+/*	font-family: 'Roboto', sans-serif;*/
+	font-family: "Palatin", serif;
+	-webkit-column-count: 2;
+	-webkit-column-gap: 0px;
+	-moz-column-count: 2;
+	-moz-column-gap: 0px;
+	max-height: 400px;
 }
-.education-blocks h3{
-	font-size: 30pt;
+/*.aboutme h3{
+	text-align: center;
+	-webkit-column-span:all;
+	padding-top: 20px;
+}*/
+#mypic img{
+	max-height: 300px;
+	padding: 20px;
+	position: left;
+}
+#info p{
+	text-align: right;
+	padding-left: 20px;
+}
+/*-----------------------SKILLS------------------------*/
+.skills{
+	-webkit-column-count: 2;
+	-webkit-column-gap: 0px;
+	-moz-column-count: 2;
+	-moz-column-gap: 0px;
+	background-color: #002448;
+	color: white;
+}
+.skills h3{
 	text-align: center;
 }
-.info-block{
-	text-align: left;
-	/*background-color: #faf;*/
-	height: 70%;
-}
-.info-block p{
-	font-size: 0.75em;
-	padding-left: 15px;
-}
-.skills-block{
-	/*background-color: #fef;*/
-
-}
-.skills-bars{
+#skills-bars{
 	margin-left: auto;
 	margin-right: auto;
 	text-align: left;
-	padding-bottom: 5px;
 }
-
-#Currently{
-	padding-top: 10px;
+#classes p{
+	padding-left:120px;
+}
+/*-----------------------WORK--------------------------*/
+#work{
+	-webkit-column-count: 2;
+	-webkit-column-gap: 0px;
+	-moz-column-count: 2;
+	-moz-column-gap: 0px;
+	background-color: #021631;
+	width: 100%
+	display: block;
+	color: white;
+	padding-bottom: 20px;
+}
+#work h3{
 	text-align: center;
+	-webkit-column-span:all;
+	-moz-column-span:all;
 }
-
-/*-----------------------SOCIAL-----------------------*/
-img{
+#gaming img{
+	height: 300px;
+	width: 440px;
+}
+#gaming:hover{
+	-webkit-box-shadow:	inset 0 0 100px rgba(255, 255, 255, 0.35);
+	-moz-box-shadow:	inset 0 0 100px rgba(255, 255, 255, 0.35);
+	box-shadow: 		inset 0 0 100px rgba(255, 255, 255, 0.35);
+}
+#Hackathons img{
+	padding-top: 20px;
+	height:300px;
+	width: 250px;
+}
+#Hackathons:hover{
+	-webkit-box-shadow:	inset 0 0 100px rgba(255, 255, 255, 0.35);
+	-moz-box-shadow:	inset 0 0 100px rgba(255, 255, 255, 0.35);
+	box-shadow: 		inset 0 0 100px rgba(255, 255, 255, 0.35);
+}
+#currently{
+	background-color: #37438a;
+	text-align: center;
 	padding: 10px;
-	max-height: 50px;
+	color: white;
 }
+/*-----------------------SOCIAL-----------------------*/
 #social{
 	background-color: #39cad6;
 	width: 100%;
@@ -91,7 +136,7 @@ img{
 #social h3{
 	font-size: 30pt;
 }
-#page-1-button{
+#adobeButton{
 	border-radius: 5px;
 	background-color: #f44336;
 	color: white;
@@ -99,15 +144,15 @@ img{
 	text-align: center;
 	text-decoration: none;
 	display: inline-block;
-
 }
 .links{
 	padding-bottom: 20px;
 }
-/*a:link, a:visited{
-	
-}*/
-#page-1-button:hover{
+.links img{
+	padding: 10px;
+	max-height: 50px;
+}
+#adobeButton:hover{
    -moz-box-shadow:    inset 0 0 100px rgba(255, 255, 255, 0.35);
    -webkit-box-shadow: inset 0 0 100px rgba(255, 255, 255, 0.35);
    box-shadow:         inset 0 0 100px rgba(255, 255, 255, 0.35);

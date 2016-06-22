@@ -8,82 +8,99 @@
 		<link href='https://fonts.googleapis.com/css?family=Roboto:400,500,700,300,100' rel='stylesheet' type='text/css'>
 		<link href = "mystyle.css" rel = "stylesheet">
 		<link href = "images/favicon.ico" rel = "shortcut icon" type = "image/x-icon">
+		<title>Nicole Pontaza</title>
 	</head>
 	<body>
 		<div id = "jumbotron">
 			<h1>Nicole Pontaza</h1>
-			<p>Let the mic drop</p>
 		</div>
-		<div class = "education-blocks">
-				<div class="info-block">
-					<h3>About Me</h3>
-					<p>Education: University of Illinois at Urbana-Champaign</p>
-					<p>From: Katy, TX</p>
-					<p>
+		<div class = "aboutme">
+<!-- 			<h3>About Me</h3> -->
+			<div id="mypic">
+				<p style="text-align:left"><img src ="images/me.jpg" alt="Me"></p>
+			</div> 
+			<div id="info">
+				<p>Welcome to my humble site! Feel free to click around, perhaps you will find something interesting.<br> *More text here*<br> As my freshman year draws to an end, I find myself more exposed to certain areas that draw my attention. The topics I intend to further study are: AI, computer vision, security, and game design.</p>
 			</div>
-				<div class = "skills-block"><br>
+			
+		</div>
+		<div class = "skills">
+			<div id = "classes">
+				<h3>Classes Taken</h3>
+				<p>CS 125 - Intro to CS<br>CS 196 - Freshman Honors (Current CA)<br>CS 173 - Discrete Structures<br>CS 225 - Data Structures<br>CS 233 - Computer Architecture (Fall 2016)</p>
+			</div>
+			<table id = "skills-bars"><br>
 				<h3>Skills</h3>
-				<table class = "skills-bars">
-					<tr>
-						<td> Java </td>
-						<td>
-							<svg width="156" height="20">
-	  						<rect width="300" height="100" style="fill:rgb(113,231,38);" /></svg>
-						</td>
-					</tr>
-					<tr>
-						<td> C# </td>
-						<td>
-							<svg width="120" height="20">
-	  						<rect width="300" height="100" style="fill:rgb(113,231,38);" /></svg>
-						</td>
-					</tr>
-					<tr>
-						<td> C++ </td>
-						<td>
-							<svg width="65" height="20">
-	  						<rect width="300" height="100" style="fill:rgb(113,231,38);" /></svg>
-						</td>
-					</tr>
-					<tr>
-						<td> HTML </td>
-						<td>
-							<svg width="40" height="20">
-	  						<rect width="300" height="100" style="fill:rgb(113,231,38);" /></svg>
-						</td>
-					</tr>
-					<tr>
-						<td> CSS </td>
-						<td>
-							<svg width="10" height="20">
-	  						<rect width="300" height="100" style="fill:rgb(113,231,38);" /></svg>
-						</td>
-					</tr>
-				</table>
-			</div>
-			<aside id = "Currently">
+				<tr>
+					<td> Java </td>
+					<td>
+						<svg width="156" height="20">
+		  				<rect width="300" height="100" style="fill:rgb(113,231,38);" /></svg>
+					</td>
+				</tr>
+				<tr>
+					<td> C# </td>
+					<td>
+						<svg width="120" height="20">
+		  				<rect width="300" height="100" style="fill:rgb(113,231,38);" /></svg>
+					</td>
+				</tr>
+				<tr>
+					<td> C++ </td>
+					<td>
+						<svg width="65" height="20">
+	  					<rect width="300" height="100" style="fill:rgb(113,231,38);" /></svg>
+					</td>
+				</tr>
+				<tr>
+					<td> HTML </td>
+					<td>
+						<svg width="40" height="20">
+	  					<rect width="300" height="100" style="fill:rgb(113,231,38);" /></svg>
+					</td>
+				</tr>
+				<tr>
+					<td> CSS </td>
+					<td>
+						<svg width="20" height="20">
+	  					<rect width="300" height="100" style="fill:rgb(113,231,38);" /></svg>
+					</td>
+				</tr>
+			</table>
+		</div>
+		<!-- WORK -->
+		<div>
+			<div id = "work"><br>
+				<h3>My Work</h3>
+				<div id = "gaming">
+					<p style="text-align:center"><img src = "images/NovascapeStart.png" alt="Novascape"></p>
+				</div>
+				<div id = "Hackathons">
+					<p style="text-align:center"><img src = "images/Hackillinois2016logo.png" alt="HackIllinois"></p>
+				</div>
+		</div>
+		<div>
+			<div id = "currently">
 				<h3>Currently Learning</h3>
 				<p>Web Development</p>
 				<progress value="22" max="100"></progress>
 				<p>Behold, this site is under construction!</p>
-			</aside>
+			</div>
 		</div>
-		<div>
-			<div id = "social"><br>
-				<h3>Links</h3>
-				<div class = "links">
-					<a id = "resume-icon" target=_blank href="static/Resume.pdf" title="Resume">
-						<img src = "images/resume_icon.png"></a>
-					<a id = "github-button" target=_blank href="https://github.com/Elocintrocity" title="Github">
-						<img src = "images/github_icon.png"></a>
-					<a id = "fb-button" target=_blank href="https://www.facebook.com/nicole.pontaza" title="Facebook">
-						<img src = "images/fb_icon.png"></a>
-					<a id = "ln-button" target=_blank href="https://www.linkedin.com/in/nicolepontaza" title="LinkedIn">
-						<img src = "images/ln_icon.png"></a>
-				</div>
-				<a id="page-1-button" style="text-align:center;" href = "http://nicolepontaza.wix.com/portfolio-pontaza">Check out my Adobe Skills!</a>
-				<footer>Copyright &copy Nicole Pontaza 2016</footer>
-		</div>
+		<div id = "social"><br>
+			<h3>Links</h3>
+			<div class = "links">
+				<a id = "resume-icon" target=_blank href="static/Resume.pdf" title="Resume">
+					<img src = "images/resume_icon.png"></a>
+				<a id = "github-button" target=_blank href="https://github.com/Elocintrocity" title="Github">
+					<img src = "images/github_icon.png"></a>
+				<a id = "fb-button" target=_blank href="https://www.facebook.com/nicole.pontaza" title="Facebook">
+					<img src = "images/fb_icon.png"></a>
+				<a id = "ln-button" target=_blank href="https://www.linkedin.com/in/nicolepontaza" title="LinkedIn">
+					<img src = "images/ln_icon.png"></a>
+			</div>
+			<a id="adobeButton" style="text-align:center;" target=_blank href = "http://nicolepontaza.wix.com/portfolio-pontaza">Check out my Adobe Skills!</a>
+		<footer>Copyright &copy Nicole Pontaza 2016</footer>
 		<script>
 		  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
 		  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
@@ -92,8 +109,6 @@
 
 		  ga('create', 'UA-74377541-1', 'auto');
 		  ga('send', 'pageview');
-
 		</script>
-	</body>
-	
+	</body>	
 </html>
