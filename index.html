@@ -6,93 +6,102 @@
 		<meta name="description" content="Nicole Pontaza's Personal Site">
 		<meta name="keywords" contect="Nicole,Pontaza,Nicole Pontaza,Nicole Pontaza UIUC,Nicole Pontaza uiuc">
 		<link href='https://fonts.googleapis.com/css?family=Roboto:400,500,700,300,100' rel='stylesheet' type='text/css'>
-		<link href = "mystyle.css" rel = "stylesheet">
+		
 		<link href = "images/favicon.ico" rel = "shortcut icon" type = "image/x-icon">
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+		<link href = "mystyle.css" rel = "stylesheet">
+
 		<title>Nicole Pontaza</title>
 	</head>
 	<body>
-		<div id = "jumbotron">
-			<h1>Nicole Pontaza</h1>
-		</div>
-		<div class = "aboutme">
-<!-- 			<h3>About Me</h3> -->
-			<div id="mypic">
-				<p style="text-align:left"><img src ="images/me.jpg" alt="Me"></p>
-			</div> 
-			<div id="info">
-				<p style = "text-align:left">Welcome to my humble site! As you will see, it is still under construction. Feel free to click around, perhaps you will find something interesting.<br>As my sophomore year is starting, I find myself more exposed to certain areas that draw my attention. The topics I intend to further study are: AI, computer vision, security, and game design.</p>
-			</div>
+		<div class = "jumbotron hero">
+			<div class="jumbotron-content"><h1>Nicole Pontaza</h1><!--<br><p>Programmer & Traveler;</p>--></div>
 			
 		</div>
-		<div class = "skills">
-			<div id = "classes">
+		<!-- ABOUT -->
+		<div class = "aboutme row"> 
+ 			<h3>About Me</h3>
+			<div id="mypic" class="img-responsive col-xs-8 col-sm-4">
+
+				<p style="text-align:left"><img src ="images/me.jpg" alt="Me"></p>
+			</div> 
+			<div class="clearfix visible-xs-block"></div>
+			<div id="info" class="col-md-14 col-sm-7">
+				<p>Welcome to my humble site! As you will see, it is still under construction. Feel free to click around, perhaps you will find something interesting. Or maybe scroll all the way down and contemplate my lack of color sense.<br>I am a part of the Class of 2019 at the University of Illinois at Urbana-Champaign studying Computer Science. I am currently the Web Developer for PenguinTech, a small startup that my good friend is currently spearheading.<br>As my sophomore year is starting, I find myself more exposed to certain areas that draw my attention. The topics I intend to further study are: AI, computer vision, security, and game design.</p>
+			</div>
+		</div>
+		<!-- CLASSES AND SKILLS -->
+		<div class = "skills row">
+			<div id = "classes" class="col-xs-12 col-sm-6">
 				<h3>Classes Taken</h3>
 				<p>CS 125 - Intro to CS<br>CS 196 - Freshman Honors (Current CA)<br>CS 173 - Discrete Structures<br>CS 225 - Data Structures<br>CS 233 - Computer Architecture (Fall 2016)</p>
 			</div>
-			<table id = "skills-bars"><br>
-				<h3>Skills</h3>
-				<tr>
-					<td> Java </td>
-					<td>
-						<svg width="156" height="20">
-		  				<rect width="300" height="100" style="fill:rgb(113,231,38);" /></svg>
-					</td>
-				</tr>
-				<tr>
-					<td> C# </td>
-					<td>
-						<svg width="120" height="20">
-		  				<rect width="300" height="100" style="fill:rgb(113,231,38);" /></svg>
-					</td>
-				</tr>
-				<tr>
-					<td> C++ </td>
-					<td>
-						<svg width="65" height="20">
-	  					<rect width="300" height="100" style="fill:rgb(113,231,38);" /></svg>
-					</td>
-				</tr>
-				<tr>
-					<td> HTML </td>
-					<td>
-						<svg width="40" height="20">
-	  					<rect width="300" height="100" style="fill:rgb(113,231,38);" /></svg>
-					</td>
-				</tr>
-				<tr>
-					<td> CSS </td>
-					<td>
-						<svg width="20" height="20">
-	  					<rect width="300" height="100" style="fill:rgb(113,231,38);" /></svg>
-					</td>
-				</tr>
-			</table>
+			<div class = "col-xs-12 col-sm-6">
+				<table id = "skills-bars">
+					<h3>Skills</h3>
+					<tr>
+						<td> Java </td>
+						<td>
+							<svg width="156" height="20">
+			  				<rect width="300" height="100" style="fill:rgb(113,231,38);" /></svg>
+						</td>
+					</tr>
+					<tr>
+						<td> C# </td>
+						<td>
+							<svg width="120" height="20">
+			  				<rect width="300" height="100" style="fill:rgb(113,231,38);" /></svg>
+						</td>
+					</tr>
+					<tr>
+						<td> C++ </td>
+						<td>
+							<svg width="65" height="20">
+		  					<rect width="300" height="100" style="fill:rgb(113,231,38);" /></svg>
+						</td>
+					</tr>
+					<tr>
+						<td> HTML </td>
+						<td>
+							<svg width="40" height="20">
+		  					<rect width="300" height="100" style="fill:rgb(113,231,38);" /></svg>
+						</td>
+					</tr>
+					<tr>
+						<td> CSS </td>
+						<td>
+							<svg width="20" height="20">
+		  					<rect width="300" height="100" style="fill:rgb(113,231,38);" /></svg>
+						</td>
+					</tr>
+				</table>
+			</div>
 		</div>
 		<!-- WORK -->
 		<div>
-			<div id = "work"><br>
+			<div id = "work" class="row"><br>
 				<h3>My Work</h3>
-				<div class = "workhover">
-					<img class = "gaming" src="images/NovascapeStart.png" alt="Novascape">
+				<div class = "workhover col-xs-10 col-sm-5">
+					<img class = "gaming img-responsive" src="images/NovascapeStart.png" alt="Novascape">
 					<div class = "overlay">
 						<h2>Novascape</h2>
 						<p> Novascape is a 2D Unity game developed during CS196 as a semester-long project. The most prominent feature the game has is networking functionality and a procedurally generated terrain, assuring no playthrough is the same as before. This game was made by 2 other students and myself. I was in charge of the physics, networking troubles, and controls. See my GitHub page for the code evaluated at the end of the Fall 2015 semester.</p>
 					</div>	
 				</div>
-				<div id = "Hackathons">
-					<p style="text-align:center"><img src = "images/Hackillinois2016logo.png" alt="HackIllinois"></p>
+				<div id = "Hackathons" class="col-xs-12 col-sm-6">
+					<p style="text-align:center"><img src = "images/Hackillinois2016logo.png" class="img-responsive" alt="HackIllinois"></p>
 				</div>
 		</div>
 		<div>
 			<div id = "currently">
-				<h3>Currently Learning</h3>
+				<h3>Currently Learning</h3><br>
 				<p>Web Development</p>
 				<progress value="22" max="100"></progress>
 				<p>Behold, this site is under construction!</p>
 			</div>
 		</div>
 		<div id = "social"><br>
-			<h3>Links</h3>
+			<h3>Links</h3><br>
 			<div class = "links">
 				<a id = "resume-icon" target=_blank href="static/Resume.pdf" title="Resume">
 					<img src = "images/resume_icon.png"></a>
