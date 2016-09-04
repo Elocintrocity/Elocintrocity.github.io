@@ -13,6 +13,7 @@ html, body, #fullheight {
 }
 .jumbotron-content {
 	position: absolute;
+	width: 80%;
 	top: 50%;
 	left: 50%;
 	transform: translate(-50%, -100%);
@@ -20,10 +21,11 @@ html, body, #fullheight {
 	font-family: 'Roboto', sans-serif;
 }
 .jumbotron-content h1{
-	font-size: 70px;
+	text-align: center;
+	font-size: calc(1em + 10vw);
 }
 h3{
-	font-size: 30px;
+	font-size: 2em;
 	text-align: center;
 }
 body{
@@ -45,12 +47,14 @@ body{
 #info p{
 	padding-top: 20px;
 	padding-left: 20px;
+	font-size: 1.2em;
 }
 /*-----------------------SKILLS------------------------*/
 .skills{
 	background-color: rgb(42,57,90);
 	color: white;
 	padding-bottom: 20px;
+	font-size: 1.2em;
 }
 #skills-bars{
 	margin-left: auto;
@@ -59,6 +63,7 @@ body{
 }
 #classes p{
 	padding-left:120px;
+	font-size: 1.2em;
 }
 /*-----------------------WORK--------------------------*/
 #work{
@@ -165,7 +170,7 @@ body{
 	color: white;
 }
 #currently p{
-	font-size: 15px;
+	font-size: 1.4em;
 }
 /*-----------------------SOCIAL-----------------------*/
 #social{
