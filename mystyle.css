@@ -61,6 +61,10 @@ body{
 	margin-right: auto;
 	text-align: left;
 }
+#skills-bars td{
+	font-size: 1.2em;
+	padding-left: 10px;
+}
 #classes p{
 	padding-left:120px;
 	font-size: 1.2em;
