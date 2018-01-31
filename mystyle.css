@@ -70,15 +70,32 @@ body{
 	font-size: 1.2em;
 }
 /*-----------------------WORK--------------------------*/
-#work{
+.work{
 	background-color: #021631;
 	width: 100%
 	display: block;
 	color: white;
 	padding-bottom: 20px;
 }
-#work h3{
+.work h3{
 	text-align: center;
+}
+.thumbnail{
+	position: relative;
+	overflow: hidden;
+}
+.overlay{
+	position:absolute;
+    top:0;
+    right:0;
+    background:rgba(0,0,0,0.5);
+    width:100%;
+    height:100%;
+    padding:2%;
+    display: none;
+    text-align:center;
+    color:#fff !important;
+    z-index:2;
 }
 #Hackathons img{
 	padding-top: 20px;
@@ -86,18 +103,18 @@ body{
 	width: 250px;
 	padding-left: 20px;
 }
-.workhover{
-	/*background-color: #fff;*/
+/*.workhover{
+	///*background-color: #fff;
 	height: 300px;
 	width: 460px;
-	/*padding-left: 20px;*/
+	//padding-left: 20px;
 	float: left;
 	overflow: hidden;
 	position: relative;
 	text-align: center;
 	cursor: default;
-}
-.workhover .overlay{
+}*/
+/*.workhover .overlay{
 	height: 100%;
 	width: 440px;
 	position: absolute;
@@ -146,13 +163,13 @@ body{
 }
 .workhover p.deets:hover{
 	box-shadow: 0 0 5px #fff;
-}
+}*/
 /*.workhover:hover img{
 	-ms-transform:scale(1.2);
 	-webkit-transform:scale(1.2);
 	transform:scale(1.2);
 }*/
-.workhover:hover .overlay{
+/*.workhover:hover .overlay{
 	opacity: 1;
 	filter: alpha(opacity=100);
 }
@@ -166,7 +183,7 @@ body{
 .workhover:hover p.deets{
 	-webkit-transition-delay: .2s;
 	transition-delay: .2s;
-}
+}*/
 #currently{
 	background-color: #37438a;
 	text-align: center;
@@ -176,6 +193,10 @@ body{
 #currently p{
 	font-size: 1.4em;
 }
+.web, .python, .C{
+	align-content: center;
+}
+
 /*-----------------------SOCIAL-----------------------*/
 #social{
 	background-color: #39cad6;

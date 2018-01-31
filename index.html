@@ -10,7 +10,8 @@
 		<link href = "images/favicon.ico" rel = "shortcut icon" type = "image/x-icon">
 		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
 		<link href = "mystyle.css" rel = "stylesheet">
-
+		<script src="JS.js"></script>
+		
 		<title>NICOLE PONTAZA</title>
 	</head>
 	<body>
@@ -34,7 +35,7 @@
 		<div class = "skills row">
 			<div id = "classes" class="col-xs-12 col-sm-6">
 				<h3>Classes Taken</h3>
-				<p>CS 125 - Intro to CS<br>CS 196 - Freshman Honors (Current CA)<br>CS 173 - Discrete Structures<br>CS 225 - Data Structures<br>CS 233 - Computer Architecture<br>CS 241 - Systems Programming (Spring 2017)</p>
+				<p>CS 125 - Intro to CS<br>CS 196 - Freshman Honors (Former CA)<br>CS 173 - Discrete Structures<br>CS 225 - Data Structures<br>CS 233 - Computer Architecture<br>CS 241 - Systems Programming<br>CS 461 - Computer Security (Fall 2017)<br>CS 498 - Digital Forensics I (Fall 2017)</p>
 			</div>
 			<div class = "col-xs-12 col-sm-6">
 				<table id = "skills-bars">
@@ -47,9 +48,16 @@
 						</td>
 					</tr>
 					<tr>
-						<td> C# </td>
+						<td> Python </td>
 						<td>
 							<svg width="130" height="20">
+			  				<rect width="300" height="100" style="fill:rgb(113,231,38);" /></svg>
+						</td>
+					</tr>
+					<tr>
+						<td> C# </td>
+						<td>
+							<svg width="120" height="20">
 			  				<rect width="300" height="100" style="fill:rgb(113,231,38);" /></svg>
 						</td>
 					</tr>
@@ -79,7 +87,32 @@
 		</div>
 		<!-- WORK -->
 		<div>
-			<div id = "work" class="row"><br>
+			<script>
+$( document ).ready(function() {
+    //$("[rel='tooltip']").tooltip();    
+ 
+    $('.thumbnail').hover(
+        function(){
+            $(this).find('.overlay').slideDown(250); //.fadeIn(250)
+        },
+        function(){
+            $(this).find('.overlay').slideUp(250); //.fadeOut(205)
+        }
+    ); 
+});
+</script>
+			<div class="work row">
+				<div class="col-md-3">
+					<div class= "thumbnail">
+						<div class = "overlay">
+							<h2>Novascape</h2>
+							<p>Novascape is a 2D Unity game developed during CS196 as a semester-long project. The most prominent feature the game has is networking functionality and a procedurally generated terrain, assuring no playthrough is the same as before. This game was made by 2 other students and myself. I was in charge of the physics, networking troubles, and controls. See my GitHub page for the code evaluated at the end of the Fall 2015 semester.</p>
+						</div>
+					<img src = "images/NovascapeStart.png" alt="Novascape">
+				</div>
+			</div>
+
+			<!-- <div id = "work" class="row"><br>
 				<h3>My Work</h3>
 				<div class = "workhover col-xs-10 col-sm-5">
 					<img class = "gaming img-responsive" src="images/NovascapeStart.png" alt="Novascape">
@@ -90,14 +123,24 @@
 				</div>
 				<div id = "Hackathons" class="col-xs-12 col-sm-6">
 					<p style="text-align:center"><img src = "images/Hackillinois2016logo.png" class="img-responsive" alt="HackIllinois"></p>
-				</div>
+				</div> -->
 		</div>
 		<div>
-			<div id = "currently">
+			<div id = "currently row">
 				<h3>Currently Learning</h3><br>
-				<p>Web Development</p>
-				<progress value="22" max="100"></progress>
-				<p>Behold, this site is under construction!</p>
+				<div class = "web col-xs-4 col-sm-2">
+					<p>Web Development</p>
+					<progress value="22" max="100"></progress>
+					<p>Behold, this site is under construction!</p>
+					<div class = "python col-xs-4 col-sm-2">
+					<p>Python</p>
+					<progress value="2" max="100"></progress>
+					<p>For CS357</p>
+					<div class = "C col-xs-4 col-sm-2">
+					<P>C</P>
+					<progress value="5" max="100"></progress>
+					<p>For CS241</p>
+				</div>
 			</div>
 		</div>
 		<div id = "social"><br>
