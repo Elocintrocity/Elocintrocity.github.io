@@ -1,7 +1,10 @@
 /* Style the header with a grey background and some padding */
 .header {
   overflow: hidden;
-  background-color: #f1f1f1;
+  /*background-color: #f1f1f1;*/
+  background-image: url(images/temp2.png);
+  background-size: 1500px;
+  background-repeat: no-repeat;
   padding: 20px 10px;
 }
 
@@ -10,11 +13,12 @@
 	padding: 12px;
 	color: black;
 	font-size: xx-large;
-	text-decoration: none;
 }
-/* Style the header links */
+/* Header of "Nicole Pontaza" */
 .header a {
   /*float: left;*/
+  text-decoration: none;
+  color:white;
 }
 
 /* Make the logos all same size, with spacing in between */
@@ -33,7 +37,7 @@
 }
 #resumeButton{
 	border-radius: 5px;
-	color: black;
+	color: white;
 	padding: 10px 50px;
 	text-align: center;
 	text-decoration: none;
@@ -84,7 +88,7 @@ li a:hover {
 }
 /*-----------------------CONTENT----------------------*/
 #mypic{
-	float:left;
+	float: left;
 }
 p{
 	padding-right: 50px;
@@ -96,6 +100,12 @@ p{
 	width: 82%;
 	float: right;
 	background-color: #f1f1f1;
+	box-sizing: border-box;
+}
+.content-list li{
+	text-align: left;
+	padding-left: 20px;
+
 }
 /*-----------------------SOCIAL-----------------------*/
 
