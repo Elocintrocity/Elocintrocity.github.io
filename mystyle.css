@@ -1,3 +1,18 @@
+@import url('https://fonts.googleapis.com/css?family=Muli');
+.jumbotron{
+  background-color: rgba(241, 241, 241, 0.3);
+  text-align: center;
+}
+.jumbotron-content{
+
+  font-family: 'Muli';
+  color: white;
+}
+body{
+  /* background-color: #373737; */
+  background-image: url(images/lock.jpg);
+  background-size: cover;
+}
 /* Style the header with a grey background and some padding */
 .header {
   overflow: hidden;
