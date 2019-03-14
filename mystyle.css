@@ -12,6 +12,9 @@ body{
   /* background-color: #373737; */
   background-image: url(images/lock.jpg);
   background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+  width: 100vw;
 }
 /* Style the header with a grey background and some padding */
 .header {
