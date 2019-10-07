@@ -1,0 +1,78 @@
+a { color: white; text-decoration: none; }
+
+.logo{
+	font-weight: bold;
+	padding: 12px;
+	color: black;
+	font-size: xx-large;
+}
+/* Header of "Nicole Pontaza" */
+.header a {
+  /*float: left;*/
+  text-decoration: none;
+  color:white;
+}
+
+/* Make the logos all same size, with spacing in between */
+.header img{
+	padding: 10px;
+	max-height: 60px;
+}
+
+/* Float the link section to the right */
+.header-right-links {
+  float: right;
+}
+/*------------------------MENU------------------------*/
+.menu-bar{
+	margin-top: 20px;
+	float: left;
+	width: 25%;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 200px;
+    background-color: #f1f1f1;
+    position: fixed; /* Make it stick, even on scroll */
+}
+
+li{
+	text-align: right;
+	/*border-bottom: 1px solid #555;*/
+}
+li a { /*controls the textboxes inside the menu*/
+    display: block;  /*has it space out between links*/
+    color: #000;
+    padding: 8px 16px;
+    text-decoration: none;
+}
+
+/* Change the link color on hover */
+li a:hover {
+    background-color: #555;
+    color: white;
+}
+.active{
+	background-color: #9966ff;
+}
+p {
+	padding-right: 50px;
+	padding-top: 20px;
+	padding-left: 20px;
+	padding-bottom: 20px;
+}
+.content {
+	width: 82%;
+	float: right;
+	/* background-color: #f1f1f1; */
+  background-color: rgba(241, 241, 241, 0.87);
+	box-sizing: border-box;
+}
+.content-list li {
+	text-align: left;
+	padding-left: 20px;
+
+}
