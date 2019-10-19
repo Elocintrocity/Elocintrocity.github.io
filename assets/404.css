@@ -7,6 +7,15 @@ h2, p{
   padding-top: 50px;
 }
 body{
-  background-image: url(images/hacker.jpg);
+  background-image: url(../images/hacker.jpg);
   background-size: cover;
+}
+footer{
+	position: fixed;
+	bottom: 0px;
+	padding-top: 20px;
+	font-size: 15px;
+  text-align: center;
+  width: 100%;
+  color: white;
 }

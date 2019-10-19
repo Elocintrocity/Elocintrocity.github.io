@@ -7,41 +7,66 @@
 		<meta name="keywords" contect="Nicole,Pontaza,Nicole Pontaza,Nicole Pontaza UIUC,Nicole Pontaza uiuc">
 		<link href='https://fonts.googleapis.com/css?family=Roboto:400,500,700,300,100' rel='stylesheet' type='text/css'>
 
-		<link href = "images/favicon.ico" rel = "shortcut icon" type = "image/x-icon">
-		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-		<link href = "mystyle.css" rel = "stylesheet">
-		<script src="JS.js"></script>
+		<link href = "../images/favicon.ico" rel = "shortcut icon" type = "image/x-icon">
+    	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+		<link href = "../assets/mystyle.css" rel = "stylesheet">
 
-		<title>NICOLE PONTAZA</title>
+		<title>Nicole Pontaza - Lessons</title>
 	</head>
 	<body>
-		<div class = "header">
-			<a href="" class="logo">Nicole Pontaza</a>
-			<div class = "header-right-links">
-				<a target=_blank href="https://www.twitter.com/Elocintrocity" title="@Elocintrocity">
-					<img src = "images/twitter_icon.png"></a>
-				<a target=_blank href="https://github.com/Elocintrocity" title="Elocintrocity">
-					<img src = "images/git_icon.png"></a>
-				<a target=_blank href="https://www.facebook.com/nicole.pontaza">
-					<img src = "images/fb_icon.png"></a>
-				<a target=_blank href="https://www.linkedin.com/in/nicolepontaza">
-					<img src = "images/ln_icon.png"></a>
-			</div>
-		</div>
-		<!-- MENU BAR -->
-		<div class = "menu-bar">
-			<ul>
-  				<li><a href="index.html">About Me</a></li>
-  				<li><a href="journey.html">My Journey</a></li>
-  				<li><a class="active">Takeaways</a></li>
-			</ul>
-		</div>
+			<nav class="navbar fixed-top navbar-expand-lg navbar-light bg-light">
+					<a class="navbar-brand" href="../index.html">
+							<img src="../images/profile.png" width="30" height="30" class="d-inline-block align-top" alt="">NP
+						</a>
+					<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+					  <span class="navbar-toggler-icon"></span>
+						</button>
+				  
+					<div class="collapse navbar-collapse" id="navbarSupportedContent">
+						<div class="navbar-nav">
+							<a class="nav-item nav-link" href="about.html">About</a>
+							<a class="nav-item nav-link" href="journey.html">Journey</a>
+							<a class="nav-item nav-link active" href="#">Lessons<span class="sr-only">(current)</span></a>
+							</div>
+						</div>
+					<form class="form-inline my-2 my-lg-0">
+							<button class="btn btn-outline-info" type="button">Resume</button>
+						  </form>
+				</nav>
+				
 		<div class = "content">
-			<p>Password Managers. Recently, I got reminded on Twitter that password managers are a thing and I *should* be using them. Unfortunately, I have not hopped on this train until recently. Even then, I've yet to decide what manager I want. Apparently LastPass has limitations? I wonder what I'll choose..I'll give myself a full day to decide and tomorrow I'll visit every site and change my password. <br> <br>Sed in nisi et magna imperdiet vehicula. Sed elementum bibendum urna, et egestas metus pretium vitae. In in fermentum sem. Sed tincidunt tortor augue. Duis efficitur purus nec hendrerit fringilla. Maecenas eu ipsum porta, congue ex nec, lacinia nulla. Integer vehicula cursus semper. Curabitur pharetra ligula eu libero tempor eleifend. Quisque nunc tortor, molestie sed sollicitudin eu, tempor a justo. Donec commodo justo ex, non varius metus ultrices sed. Nam vitae viverra sem, a tempus metus. Nullam vehicula porta metus sed laoreet. Phasellus felis ante, placerat in magna id, cursus pulvinar massa. Donec id mauris sed felis malesuada maximus in fermentum sem. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.
-
-			Donec sodales consectetur viverra. Aenean sed imperdiet massa, in gravida lorem. Nullam elementum, orci ac sollicitudin porta, ipsum metus bibendum eros, non ornare augue enim sed magna. Morbi egestas, lorem vel consequat faucibus, mauris eros porta purus, ac dictum turpis ante at magna. Nunc bibendum pellentesque lectus at eleifend. Donec eu convallis arcu. Maecenas volutpat arcu ac accumsan porta. Praesent vestibulum iaculis magna, sed imperdiet nisl iaculis eget. Duis ullamcorper purus leo, in scelerisque velit rutrum quis. Phasellus tincidunt sem sit amet neque malesuada eleifend.</p>
+			<h2>Lessons Learned</h2>
+			<p>I learned a lot of things while reading up on security best practices. Sit down and read about them!
+				<br>Just kidding, you don't have to... but you're already halfway there! Just keep reading, I promise I won't lose you.
+			</p>
+				  <div class="card-deck">
+						<div class="card">
+						  <img class="card-img-top" src="../images/lock.jpg" alt="Card image cap">
+						  <div class="card-body">
+							<h5 class="card-title">Password Managers</h5>
+							<p class="card-text">You know your complex, 14+ character passwords by memory? Writing them down doesn't count... I got you there, didn't I?</p>
+							<a href="#" class="btn btn-primary">Read more</a>
+						  </div>
+						</div>
+						<div class="card">
+						  <img class="card-img-top" src="../images/usa.jpg" alt="Card image cap">
+						  <div class="card-body">
+							<h5 class="card-title">VPNs</h5>
+							<p class="card-text">What is it, why is it important, and can it throw the FBI/NSA/your ISPs off your trail?</p>
+							<a href="#" class="btn btn-primary">Read more</a>
+						  </div>
+						</div>
+						<div class="card">
+						  <img class="card-img-top" src="../images/office.jpg" alt="Card image cap">
+						  <div class="card-body">
+								<h5 class="card-title">Onion (Tor)</h5>
+								<p class="card-text">Shrek did say an onion has many layers. We're going into the deep, dark, unsafe web. And an onion (link) will get us there.</p>
+								<a href="#" class="btn btn-primary">Read more</a>
+						  		</div>
+							</div>
+					  </div>
 		</div>
-		<footer>Copyright &copy Nicole Pontaza 2018</footer>
+		<footer>Copyright &copy Nicole Pontaza 2019</footer>
 		<script>
 		  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
 		  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
