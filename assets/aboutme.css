@@ -8,23 +8,12 @@
   font-family: 'Muli';
   /* color: white; */
 }
-.header {
-  overflow: hidden;
-  /*background-color: #f1f1f1;*/
-  background-image: url(images/keys.png);
-  margin-top: 0px;
-  background-size: 100%;
-  padding: 20px 10px;
-}
 a { color: white; text-decoration: none; }
 
 /*-----------------------CONTENT----------------------*/
 
-
-
 body{
-  /* background-color: #373737; */
-  background-image: url(images/office.jpg);
+  background-image: url(../images/office.jpg);
   background-size: cover;
 }
 /*-----------------------SOCIAL-----------------------*/
@@ -32,7 +21,9 @@ body{
 footer{
 	position: fixed;
 	bottom: 0px;
+  width: 100%;
 	padding-top: 20px;
 	font-size: 15px;
 	text-align: center;
+  color: white;
 }
