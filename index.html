@@ -14,23 +14,99 @@
     	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
 
 		<link href = "assets/mystyle.css" rel = "stylesheet">
+		<script src="scroll-down.js"></script>
 
 		<title>Nicole Pontaza - Cybersecurity Aficionado</title>
 	</head>
 	<body>
-		<div class = "container">
-			<div class = "jumbotron jumbotron-fluid">
-				<div class = "jumbotron-content">
-					<h1>Nicole Pontaza</h1>
-					<hr class="my-4">
-					<p>Cybersecurity Aficionado</p>
+			<div class = "jumbotron hero">
+					<div class="jumbotron-content"><h1>Nicole Pontaza</h1>
+						<br>
+						  
+						<div id="container">
+							<div id="center">
+							  <h3 id="p12">
+								Cybersecurity Aficionado
+							  </h3>
+							</div>
+						  </div>
+						  <br>
+						  <div class="resume">
+								<a id="resumeButton" data-toggle="modal" data-target="#resumeModal">Resume</a>
+							</div>
+						<br>
+						<br>
+						<a class="ct-btn-scroll ct-js-btn-scroll" href="#portal"><img alt="Arrow Down Icon" src="https://www.solodev.com/assets/anchor/arrow-down.png"></a>
+						</div>
 				</div>
-			</div>
-			<h2>Let me help you see the world this way...</h2>
-			<p>Good engineering involves thinking about how things can be made to work; the security mindset involves thinking about how things can be made to fail. It involves thinking like an attacker, an adversary or a criminal. You don't have to exploit the vulnerabilities you find, but if you don't see the world that way, you'll never notice most security problems.</p>
-		</div>
 
+			<!-- QUOTE -->
+			<section id="portal">
+				<div class="portal-content">
+					<h2>[The security mindset] involves thinking like an attacker, an adversary or a criminal. 
+							You don't have to exploit the vulnerabilities you find,
+							<br> but if you don't see the world that way,
+							<br> you'll never notice most security problems.
+					</h2>
+					<br>
+					<h4>-Bruce Schneier</h4>
+					<h2 style="padding-top: 100px;">Let me help you see the world this way...</h2>
+					<div class="resume">
+							<a id="resumeButton" data-toggle="modal" data-target="#portalModal">Enlighten Me</a>
+						</div>
+				</div>
+			</section>
 
+			<div class="modal fade" id="resumeModal" tabindex="-1" role="dialog" aria-labelledby="portalModalLabel" aria-hidden="true">
+					<div class="modal-dialog" role="document">
+					  <div class="modal-content">
+						<div class="modal-header">
+						  <h5 class="modal-title" id="resumeModalLabel" style="color: black;">Not yet!</h5>
+						  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+							<span aria-hidden="true">&times;</span>
+						  </button>
+						</div>
+						<div class="modal-body" style="color: black;">
+						  I don't want to share my resume at this time. Come back again and maybe it'll be up!
+						</div>
+						<div class="modal-footer">
+						  <button type="button" class="btn btn-secondary" data-dismiss="modal" style="color: black;">That's fine, I guess</button>
+						</div>
+					  </div>
+					</div>
+				  </div>
+
+				  <div class="modal fade" id="portalModal" tabindex="-1" role="dialog" aria-labelledby="portalModalLabel" aria-hidden="true">
+						<div class="modal-dialog" role="document">
+						  <div class="modal-content">
+							<div class="modal-header">
+							  <h5 class="modal-title" id="portalModalLabel" style="color: black;">Not yet!</h5>
+							  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+								<span aria-hidden="true">&times;</span>
+							  </button>
+							</div>
+							<div class="modal-body" style="color: black;">
+							  I'm still working on my site. Seeing as it's still under construction...
+							  <br>
+							  I can give you my social handles for now (ssh, it's a badly kept secret).
+							</div>
+							<div class = "social-links" style="align-self: center;">
+									<a target=_blank href="https://www.twitter.com/Elocintrocity" title="@Elocintrocity">
+										<img src = "images/twitter_icon.png"></a>
+									<a target=_blank href="https://github.com/Elocintrocity" title="Elocintrocity">
+										<img src = "images/github_icon.png"></a>
+									<a target=_blank href="https://www.facebook.com/nicole.pontaza">
+										<img src = "images/fb_icon.png"></a>
+									<a target=_blank href="https://www.linkedin.com/in/nicolepontaza">
+										<img src = "images/ln_icon.png"></a>
+								</div>
+							<div class="modal-footer">
+							  <button type="button" class="btn btn-secondary" data-dismiss="modal" style="color: black;">Ok</button>
+							</div>
+						  </div>
+						</div>
+					  </div>
+			
 		<footer>Copyright &copy Nicole Pontaza 2019</footer>
 		<script type="text/javascript">
 			(function() {
